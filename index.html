@@ -1,12 +1,94 @@
-<html>
-  <head>
-    <title>Signa</title>
-    <link rel="stylesheet" href="Styles/index.css"/>
-  </head>
-  <body>
-    <h1>Welcome to Signa app</h1>
-    <class id="test">
-      <p>Ceci est un paragraphe test</p>
-    </class>
-  </body>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sygna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="logo.svg" alt="Sygna Logo" class="logo-img">
+                <div class="logo-text">Sygna</div>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#formules">Tarifs</a></li>
+                <li><a href="#telecharger" class="btn">Télécharger l'application</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Traduisez facilement entre la langue des signes et le langage parlé</h1>
+            <p>Sygna est une application innovante qui connecte les mondes grâce à la traduction en temps réel entre la langue des signes et le langage parlé/écrit.</p>
+            <a href="#telecharger" class="btn primary">Télécharger maintenant</a>
+        </div>
+    </section>
+
+    <section id="formules" class="pricing">
+        <h2>Nos Formules</h2>
+        <div class="pricing-cards">
+            <div class="card">
+                <h3>Plan Iron</h3>
+                <p>7,99€/mois</p>
+                <ul>
+                    <li>Disponible sur 2 appareils</li>
+                    <li>Limité à 5 traductions/jour</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Plan Gold</h3>
+                <p>9,99€/mois</p>
+                <ul>
+                    <li>Disponible sur 3 appareils</li>
+                    <li>50 traductions/jour</li>
+                    <li>Mode hors-ligne</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Plan Diamond</h3>
+                <p>11,99€/mois</p>
+                <ul>
+                    <li>Disponible sur 4 appareils</li>
+                    <li>Traductions illimitées</li>
+                    <li>Support client prioritaire</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Plan Platine</h3>
+                <p>13,99€/mois</p>
+                <ul>
+                    <li>Disponible sur 5 appareils</li>
+                    <li>Traductions illimitées</li>
+                    <li>Analyse vocale avancée</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Plan Obsidian</h3>
+                <p>19,99/mois</p>
+                <ul>
+                    <li>Disponible sur 10 appareils</li>
+                    <li>Traductions illimitées</li>
+                    <li>Supprot client IA 24H/24</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="telecharger" class="download">
+        <h2>Téléchargez Sygna dès aujourd'hui</h2>
+        <p>Disponible sur iOS et Android</p>
+        <button class="btn primary">Télécharger</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sygna. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
