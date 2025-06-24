@@ -68,6 +68,10 @@ header {
     padding: 8px;
 }
 
+.menu-toggle:hover {
+    color: #bf00ff;
+}
+
 /* HERO SECTION */
 .hero {
     text-align: center;
