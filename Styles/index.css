@@ -109,6 +109,7 @@ header {
 
 .primary {
     background: linear-gradient(to right, #9900cc, #ff3399);
+    color: white;
 }
 
 /* PRICING SECTION */
