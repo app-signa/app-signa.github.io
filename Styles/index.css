@@ -125,9 +125,11 @@ header {
 }
 
 .pricing-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* ✅ ceci est essentiel */
     gap: 20px;
+    padding: 20px;
 }
 
 .card {
