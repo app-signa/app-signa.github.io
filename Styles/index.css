@@ -399,10 +399,16 @@ body.footer-bas > .merci-container {
     }
 
     .nav-links .btn {
-        width: calc(100% - 40px); /* réduit légèrement la largeur */
-        padding: 0px 0px;
-        text-align: center;
+        background: none !important;
+        color: #333 !important;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        padding: 12px 0;
+        text-align: left;
         font-size: 1rem;
+        box-shadow: none;
+        margin: 0;
     }
  
     .hero-container {
