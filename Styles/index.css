@@ -299,9 +299,8 @@ footer {
         flex-direction: column;
         background: white;
         width: 100%;
-        position: absolute;
-        padding-left: 0px;
-        padding-top: 20px;
+        position: center;
+        padding-top: 200px;
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
 
