@@ -88,12 +88,12 @@ body {
       color: var(--texte-noir);
 }
 
-header {
+.about {
       text-align: center;
       padding: 4rem 2rem 2rem;
 }
 
-header h1 {
+.about {
       font-size: 3rem;
       color: var(--violet-fonce);
 }
