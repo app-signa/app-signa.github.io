@@ -239,8 +239,8 @@ footer {
         background: white;
         width: 100%;
         position: absolute;
-        top: 70px;
-        left: 0;
+        top: 100px;
+        left: 10;
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
 
@@ -254,12 +254,11 @@ footer {
 
     .nav-links .btn {
         width: calc(100% - 40px); /* réduit légèrement la largeur */
-        margin: 10px auto; /* centre le bouton */
         padding: 12px 0;
         text-align: center;
         font-size: 1rem;
     }
-
+ 
     .hero-container {
         flex-direction: column;
         text-align: center;
