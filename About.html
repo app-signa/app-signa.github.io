@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Web Démo</title>
+  <style>
+    :root {
+      --violet-clair: #cc99ff;
+      --rose: #ff66cc;
+      --violet-fonce: #7a00cc;
+      --texte-noir: #000;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fdf9ff;
+      color: var(--texte-noir);
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 2rem 2rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: var(--violet-fonce);
+    }
+
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 2rem;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .box {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2rem;
+      max-width: 1200px;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .text, .image {
+      flex: 1 1 45%;
+    }
+
+    .image img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: var(--violet-fonce);
+    }
+
+    @media (max-width: 768px) {
+      .box {
+        flex-direction: column;
+      }
+      .text, .image {
+        flex: 1 1 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Titre Principal de la Page</h1>
+  </header>
+
+  <section class="section">
+    <div class="box">
+      <div class="text">
+        <h2>Problème et solution</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet, justo at pharetra sollicitudin, purus nunc malesuada arcu, a malesuada libero risus id ligula.</p>
+      </div>
+      <div class="image">
+        <img src="https://via.placeholder.com/500x300" alt="Problème et solution">
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="box">
+      <div class="image">
+        <img src="https://via.placeholder.com/500x300" alt="Nos cibles">
+      </div>
+      <div class="text">
+        <h2>Nos cibles</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit nisi sed sapien dictum, vel porttitor justo sollicitudin.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="box">
+      <div class="text">
+        <h2>Modèle éco</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum, elit nec tempus faucibus, neque urna cursus odio, at porttitor arcu est non orci.</p>
+      </div>
+      <div class="image">
+        <img src="https://via.placeholder.com/500x300" alt="Modèle éco">
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="box">
+      <div class="image">
+        <img src="https://via.placeholder.com/500x300" alt="Qui sommes nous">
+      </div>
+      <div class="text">
+        <h2>Qui sommes nous</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et massa eget felis hendrerit fermentum. Vestibulum in rhoncus ex.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="box">
+      <div class="text">
+        <h2>Suivez nous</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum purus vitae justo sodales, in tincidunt tortor imperdiet.</p>
+      </div>
+      <div class="image">
+        <img src="https://via.placeholder.com/500x300" alt="Suivez nous">
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
