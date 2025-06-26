@@ -375,6 +375,7 @@ body.footer-bas > .merci-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /* RESPONSIVE */
@@ -427,6 +428,15 @@ body.footer-bas > .merci-container {
         min-width: 220px;
         max-width: 100%;
     }
+
+    .merci-container,
+    .telecharger-container {
+        min-height: 60vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -437,4 +447,12 @@ body.footer-bas > .merci-container {
     margin: 3rem 0 2rem 0;
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+.telecharger-container {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
