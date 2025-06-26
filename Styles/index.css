@@ -22,7 +22,6 @@ header {
     top: 0;
     z-index: 1000;
     min-height: 70px;
-    display: flex;
 }
 
 .nav-container {
