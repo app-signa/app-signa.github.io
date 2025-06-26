@@ -1,106 +1,99 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sygna</title>
-  <link rel="stylesheet" href="Styles/index.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signa</title>
+    <link rel="stylesheet" href="./Styles/index.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo-container">
-        <img src="logo.png" alt="Sygna Logo" class="logo-img" />
-        <div class="logo-text">Sygna</div>
-      </div>
-      <div class="menu-toggle" id="menu-toggle">☰</div>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="formules.html">Tarifs</a></li>
-        <li><a href="telecharger.html" class="btn">Télécharger</a></li>
-        <li><a href="apropos.html">À propos</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav class="nav-container">
+            <div class="logo-container">
+                <img src="" alt="Signa Logo" class="logo-img">
+                <div class="logo-text">Signa</div>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#formules">Tarifs</a></li>
+                <li><a href="#telecharger" class="btn">Télécharger l'application</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <div class="hero-left">
-        <h1>Traduisez entre langue des signes et langage parlé</h1>
-        <p>Sygna connecte les mondes par la traduction en temps réel entre la langue des signes et le langage parlé/écrit.</p>
-        <a href="telecharger.html" class="btn primary">Télécharger maintenant</a>
-      </div>
-      <div class="hero-right">
-        <img src="image1.png" alt="Illustration Sygna" />
-      </div>
-    </div>
-  </section>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Traduisez facilement entre la langue des signes et le langage parlé</h1>
+                <p>Sygna est une application innovante qui connecte les mondes grâce à la traduction en temps réel entre la langue des signes et le langage parlé/écrit.</p>
+                <a href="#telecharger" class="btn primary">Télécharger maintenant</a>
+            </div>
+            <div class="hero-image">
+                <img src="./image1.png" alt="Illustration Sygna">
+            </div>
+        </div>
+    </section>
 
-  <section class="highlighted-plans">
-    <h2>Nos meilleures formules</h2>
-    <div class="highlighted-cards">
-      <div class="card highlight popular">
-        <h3>Plan Gold</h3>
-        <p>9,99€/mois</p>
-        <ul>
-          <li>3 appareils</li>
-          <li>50 traductions/jour</li>
-          <li>Mode hors-ligne</li>
-        </ul>
-      </div>
-      <div class="card highlight economic">
-        <h3>Plan Iron</h3>
-        <p>7,99€/mois</p>
-        <ul>
-          <li>2 appareils</li>
-          <li>5 traductions/jour</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    <section id="formules" class="pricing">
+        <h2>Nos Formules</h2>
+        <div class="pricing-cards">
+            <div class="card">
+                <h3>Plan Iron</h3>
+                <p>7,99€/mois</p>
+                <ul>
+                    <li>Disponible sur 2 appareils</li>
+                    <li>Limité à 5 traductions/jour</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Plan Gold</h3>
+                <p>9,99€/mois</p>
+                <ul>
+                    <li>Disponible sur 3 appareils</li>
+                    <li>50 traductions/jour</li>
+                    <li>Mode hors-ligne</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Plan Diamond</h3>
+                <p>11,99€/mois</p>
+                <ul>
+                    <li>Disponible sur 4 appareils</li>
+                    <li>Traductions illimitées</li>
+                    <li>Support client prioritaire</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Plan Platine</h3>
+                <p>13,99€/mois</p>
+                <ul>
+                    <li>Disponible sur 5 appareils</li>
+                    <li>Traductions illimitées</li>
+                    <li>Analyse vocale avancée</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Plan Obsidian</h3>
+                <p>19,99€/mois</p>
+                <ul>
+                    <li>Disponible sur 10 appareils</li>
+                    <li>Traductions illimitées</li>
+                    <li>Support client IA 24h/24</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-  <section class="features">
-    <div class="feature">
-      <div class="text">
-        <h3>Interface intuitive</h3>
-        <p>Une interface simple et claire pour tous les âges.</p>
-      </div>
-      <div class="image">
-        <img src="image2.png" alt="Interface" />
-      </div>
-    </div>
-    <div class="feature">
-      <div class="image">
-        <img src="image3.png" alt="Traduction" />
-      </div>
-      <div class="text">
-        <h3>Traduction instantanée</h3>
-        <p>Communiquez sans barrières grâce à la traduction en temps réel.</p>
-      </div>
-    </div>
-    <div class="feature">
-      <div class="text">
-        <h3>Mode hors-ligne</h3>
-        <p>Utilisez Sygna même sans connexion Internet.</p>
-      </div>
-      <div class="image">
-        <img src="image4.png" alt="Hors-ligne" />
-      </div>
-    </div>
-    <div class="feature">
-      <div class="image">
-        <img src="image5.png" alt="Accessibilité" />
-      </div>
-      <div class="text">
-        <h3>Conçu pour l'accessibilité</h3>
-        <p>Pensé pour tous, avec des paramètres personnalisables.</p>
-      </div>
-    </div>
-  </section>
+    <section id="telecharger" class="download">
+        <h2>Téléchargez Signa dès aujourd'hui</h2>
+        <p>Disponible sur iOS et Android</p>
+        <button class="btn primary">Télécharger</button>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Sygna. Tous droits réservés.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Signa. Tous droits réservés.</p>
+    </footer>
 
-  <script src="Scripts/index.js"></script>
+    <script src="./Scripts/index.js"></script>
 </body>
 </html>
