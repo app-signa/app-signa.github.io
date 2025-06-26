@@ -206,6 +206,11 @@ h2 {
     color: white;
 }
 
+
+.tableau-telechargement {
+    border: transparent;
+}
+
 /* PRICING SECTION */
 .pricing {
     padding: 60px 20px;
