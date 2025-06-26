@@ -21,6 +21,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    min-height: 70px;
+    display: flex;
 }
 
 .nav-container {
@@ -28,6 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    min-height: 70px;
 }
 
 .logo-container {
