@@ -337,6 +337,16 @@ footer {
     text-align: center;
 }
 
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:focus {
+    color: #cc99ff;
+    text-decoration: underline;
+}
+
 /* Pour que le contenu pousse le footer en bas sur les pages courtes */
 body.footer-bas {
     min-height: 100vh;
