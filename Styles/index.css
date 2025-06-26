@@ -181,6 +181,9 @@ body {
     margin-bottom: 30px;
 }
 
+.hero-content h1 {
+    text-align: center;
+}
 
 
 /* BUTTONS */
