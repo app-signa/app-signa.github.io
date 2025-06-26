@@ -410,6 +410,13 @@ body.footer-bas > .merci-container {
     margin-bottom: 0;
   }
 }
-.merci {
-    color: #7a00cc;
+
+
+.merci, #merci {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--violet-fonce);
+    margin: 3rem 0 2rem 0;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
