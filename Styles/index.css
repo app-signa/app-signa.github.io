@@ -403,12 +403,13 @@ body.footer-bas > .merci-container {
     }
 
     .download-table, .download-table tr, .download-table td {
-    display: block;
-    width: 100%;
-  }
-  .download-table td {
-    margin-bottom: 0;
-  }
+        display: block;
+        width: 100%;
+    }
+    .download-table td {
+        margin-bottom: 0;
+        text-align: center;
+    }
 }
 
 
