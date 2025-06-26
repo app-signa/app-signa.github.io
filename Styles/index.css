@@ -119,6 +119,12 @@ header {
     margin-bottom: 30px;
 }
 
+.hero-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 /* BUTTONS */
 .btn {
     padding: 12px 24px;
