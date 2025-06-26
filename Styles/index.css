@@ -325,6 +325,20 @@ footer {
     text-align: center;
 }
 
+/* Footer toujours en bas sur les pages courtes */
+body.footer-bas {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-bas footer {
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .nav-links {
