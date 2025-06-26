@@ -215,6 +215,7 @@ body {
 .primary {
     background: linear-gradient(to right, #9900cc, #ff3399);
     color: white;
+    text-decoration: none;
 }
 
 /* PRICING SECTION */
@@ -344,7 +345,7 @@ footer a {
 
 footer a:hover, footer a:focus {
     color: #cc99ff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Pour que le contenu pousse le footer en bas sur les pages courtes */
