@@ -43,6 +43,7 @@ header {
 .logo-text {
     font-size: 24px;
     font-weight: bold;
+    color: inherit;
     color: #7a00cc;
     text-decoration: none;
 }
