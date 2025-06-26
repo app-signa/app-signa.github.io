@@ -91,6 +91,7 @@ body {
 .about {
       text-align: center;
       padding: 4rem 2rem 2rem;
+      color: var(--violet-fonce);
 }
 
 .about {
@@ -129,10 +130,6 @@ body {
       width: 100%;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-h2 {
-      color: var(--violet-fonce);
 }
 
 /* HERO SECTION */
