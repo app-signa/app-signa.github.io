@@ -462,3 +462,7 @@ body.footer-bas > .merci-container {
     justify-content: center;
     align-items: center;
 }
+
+.download .btn {
+    margin-top: 24px;
+}
