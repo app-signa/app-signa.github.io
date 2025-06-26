@@ -294,20 +294,20 @@ body {
   margin: 16px 0;
   font-size: 1.2rem;
   font-weight: bold;
-  background: linear-gradient(90deg, #4f8cff, #6ee7b7);
+  background: linear-gradient(90deg, #9900cc, #ff3399); /* violet → rose */
   color: #fff;
   border-radius: 12px;
   border: none;
   text-align: center;
   text-decoration: none;
-  box-shadow: 0 4px 16px rgba(79,140,255,0.12);
-  transition: transform 0.1s, box-shadow 0.1s;
+  box-shadow: 0 4px 16px rgba(153,0,204,0.12);
+  transition: transform 0.1s, box-shadow 0.1s, background 0.2s;
 }
 
 .dl-btn:hover, .dl-btn:focus {
   transform: translateY(-2px) scale(1.03);
-  box-shadow: 0 8px 24px rgba(79,140,255,0.18);
-  background: linear-gradient(90deg, #6ee7b7, #4f8cff);
+  box-shadow: 0 8px 24px rgba(153,0,204,0.18);
+  background: linear-gradient(90deg, #ff3399, #9900cc); /* inversion au hover */
   color: #fff;
 }
 
