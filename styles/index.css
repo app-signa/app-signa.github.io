@@ -57,7 +57,7 @@ header {
 }
 
 .nav-links {
-    background: light-grey;
+    background-color: #d7dbdd;
     list-style: none;
     display: flex;
     gap: 20px;
