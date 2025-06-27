@@ -392,7 +392,7 @@ body.footer-bas > .merci-container {
     .nav-links {
         display: none;
         flex-direction: column;
-        background: #d7dbdd;
+        background: #f2f3f4;
         width: 100%;
         position: center;
         padding: 200px, 200px;
