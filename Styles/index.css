@@ -327,6 +327,7 @@ body {
   text-decoration: none;
   box-shadow: 0 4px 16px rgba(153,0,204,0.12);
   transition: transform 0.1s, box-shadow 0.1s, background 0.2s;
+  white-space: nowrap;
 }
 
 .dl-btn:hover, .dl-btn:focus {
