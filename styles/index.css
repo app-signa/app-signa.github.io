@@ -57,7 +57,6 @@ header {
 }
 
 .nav-links {
-    background-color: #d7dbdd;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -393,7 +392,7 @@ body.footer-bas > .merci-container {
     .nav-links {
         display: none;
         flex-direction: column;
-        background: white;
+        background: #d7dbdd;
         width: 100%;
         position: center;
         padding: 200px, 200px;
